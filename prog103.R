@@ -142,4 +142,5 @@ for (i in 1:length(seasons)) {
 
 # P10 Examine your results from P9. You should find two outputs where both
 # extreme heat and cold exposure were 0. What season were they in?
-#Harris in Fall and Nuka_Bay in Fall
+#Harris in Fall
+# Nuka_Bay in Fall
