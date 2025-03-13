@@ -14,7 +14,7 @@ dna2 <- "attattaggaacaca"
 
 # Use them to print whether or not the following statements are TRUE or FALSE.
 # w is greater than 10
-# FALSE
+# TRUE
 # "green" is in colors
 # TRUE
 # x is greater than y

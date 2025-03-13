@@ -133,12 +133,12 @@ seasons <- c("Late winter", "Spring", "Summer", "Fall", "Early winter")
 seasons <- c("Late winter", "Spring", "Summer", "Fall", "Early winter")
 site <- c("Aialik", "Nuka_Pass", "Harris", "McCarty", "Nuka_Bay")
 for (i in 1:length(seasons)) {
-  for (j in 1:length(site))
+  for (j in 1:length(site)) {
   heat_exposure <- extremehours_perday(site[j], seasons[i], "heat")
   cold_exposure <- extremehours_perday(site[j], seasons[i], "cold")
   print(paste(site[j], seasons[i], heat_exposure, cold_exposure))
 }
-
+}
 
 # P10 Examine your results from P9. You should find two outputs where both
 # extreme heat and cold exposure were 0. What season were they in?
